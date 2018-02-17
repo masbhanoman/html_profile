@@ -1,0 +1,138 @@
+*{
+		margin:0;
+		padding:0;		
+}
+body{
+	background:url(img/bg.jpg) no-repeat ;
+}
+.fix{
+	overflow:hidden;
+}
+h1,h2,h3{
+	  font-weight:bold;
+	  font-family:arial;
+	  font-size:20px;
+	  display:block;
+	  padding:10px;
+	  text-align:center;
+	  
+}
+a{
+	color:#gold;
+	text-decoration:none;
+}
+a:hover{
+	color:#ffffff;
+	text-decoration:underline
+}
+.wrapper{
+	width:1250px;
+	height:auto;
+	margin:20px auto;
+}
+
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+.header{
+	margin-bottom:20px;
+}
+.pic-name-warpper{
+	
+}
+.pic{
+	width:470px;
+	height:270px;	
+	position:relative;
+}
+.image_mask{
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+bottom:0;
+opacity:0;
+transition:1s;
+}
+.pic:hover .image_mask{
+opacity:1;
+}
+.name{
+	width:470px;
+	height:270px;
+	background:#84AA42;
+	margin-left:20px;
+	text-align:center;
+	color:white;
+	position:relative;
+}
+.name-mask{
+	width:100%;
+	height:100%;
+	background:#7BA239;
+	
+	text-align:center;
+	color:#E7F3FF;
+	position:absolute;
+	opacity:0;
+	top:0px;
+	bottom:0px;
+	transition:2s;
+}
+.name:hover .name-mask{
+		opacity:1;
+}
+.name h1{
+	margin:30px auto;
+	font-size:46px;
+}
+.assign-links{
+	width:270px;
+	height:270px;
+	background:red;
+}
+.list{
+	margin-bottom:5px;
+}
+.list ul li{
+	margin-left:20px;
+	padding-bottom:10px;
+	border-bottom:2px solid white;
+}
+
+.content{
+	width:100%;
+	height:auto;
+
+	
+}
+.same2{
+	height:auto;
+	width:400px;
+	
+	
+	
+	margin-right:25px;
+}
+.same{
+	height:250px;
+	width:400px;
+	background-color:red;
+	margin-bottom:20px;
+}
+
+.content-1{	
+	
+}
+.content-3{width:400px;
+	
+	
+}
+.portfolio{
+	margin-bottom:20px;
+}
+
+ 

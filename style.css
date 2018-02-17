@@ -1,0 +1,284 @@
+*{
+		margin:0;
+		padding:0;		
+}
+body{
+	background:url(img/bg.jpg) no-repeat ;
+}
+.fix{
+	overflow:hidden;
+}
+h1,h2,h3{
+	  font-weight:bold;
+	  font-family:arial;
+	  font-size:20px;
+	  display:block;
+	  padding:10px;
+	  text-align:center;
+	  margin-bottom:05px;
+	  color:white;
+	  
+}
+a{
+	color:#gold;
+	text-decoration:none;
+}
+a:hover{
+	color:#ffffff;
+	text-decoration:underline
+}
+.wrapper{
+	width:1250px;
+	height:auto;
+	margin:20px auto;
+}
+
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+.img{
+	repeat:no-repeat;
+	height:100%;
+	width:100%;
+	
+}
+.header{
+	margin-bottom:20px;
+}
+.pic-name-warpper{
+	
+}
+.pic{
+	width:470px;
+	height:270px;	
+	position:relative;
+}
+.image_mask{
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+bottom:0;
+opacity:0;
+transition:1s;
+}
+.pic:hover .image_mask{
+opacity:1;
+}
+.name{
+	width:470px;
+	height:270px;
+	background:#84AA42;
+	margin-left:20px;
+	text-align:center;
+	color:white;
+	position:relative;
+}
+.name-mask{
+	width:100%;
+	height:100%;
+	background:hotpink;
+	
+	text-align:center;
+	color:#E7F3FF;
+	position:absolute;
+	opacity:0;
+	top:0px;
+	bottom:0px;
+	transition:2s;
+}
+.name:hover .name-mask{
+		opacity:1;
+}
+.name h1{
+	margin:30px auto;
+	font-size:46px;
+}
+.assign-links{
+	width:270px;
+	height:270px;
+	background:maroon;
+	position:relative;
+}
+.assign-links-mask{
+	width:270px;
+	height:270px;
+	background:lime;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.assign-links:hover .assign-links-mask{
+	width:270px;
+	height:270px;
+	background:lime;
+	opacity:1;
+}
+.list{
+	
+}
+.list ul li{
+	margin-left:20px;
+	padding-bottom:10px;
+	border-bottom:2px solid blue;
+}
+
+.content{
+	width:100%;
+	height:auto;
+
+	
+}
+.same2{
+	height:auto;
+	width:400px;
+	
+	
+	
+	margin-right:25px;
+}
+.same{
+	height:250px;
+	width:400px;
+	background-color:red;
+	margin-bottom:20px;
+	text-align:center;
+	color:white;
+}
+
+.content-1{	
+	
+}
+.content-3{width:400px;
+	
+	
+}
+.portfolio{
+	margin-bottom:20px;
+	background:magenta;
+	position:relative;	
+}
+.portfolio-mask{
+	width:400px;
+	height:250px;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.portfolio:hover .portfolio-mask{
+	width:400px;
+	height:250px;
+	opacity:1;
+	background:darkorange;
+}
+span{
+	color:blue;
+}
+.about{
+	margin-bottom:20px;
+	background:yellowgreen;
+	position:relative;	
+}
+.about-mask{
+	width:400px;
+	height:250px;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.about:hover .about-mask{
+	width:400px;
+	height:250px;
+	opacity:1;
+	background:green;
+	
+}
+.layout{
+	margin-bottom:20px;
+	background:lightgreen;
+	position:relative;	
+}
+.layout-mask{
+	width:400px;
+	height:250px;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.layout:hover .layout-mask{
+	width:400px;
+	height:250px;
+	opacity:1;
+	background:yellow;
+	
+}
+.group-project{
+	margin-bottom:20px;
+	background:darkslategray;
+	position:relative;	
+}
+.group-project-mask{
+	width:400px;
+	height:250px;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.group-project:hover .group-project-mask{
+	width:400px;
+	height:250px;
+	opacity:1;
+	background:darkblue;
+	
+}
+.my-group-member{
+	background:darksalmon;
+	position:relative;
+}
+.my-group-member-mask{
+	width:400px;
+	height:250px;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.my-group-member:hover .my-group-member-mask{
+		width:400px;
+	height:250px;
+	opacity:1;
+	background:darkblue;
+}
+.contact{
+	background:dodgerblue;
+	position:relative;
+}
+.contact-mask{
+	width:400px;
+	height:250px;
+	top:0;
+	bottom:0;
+	opacity:0;
+	position:absolute;
+	transition:1s;
+}
+.contact:hover .contact-mask{
+	width:400px;
+	height:250px;
+	opacity:1;
+	background:dimgray;
+}
